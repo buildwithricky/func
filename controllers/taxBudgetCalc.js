@@ -33,7 +33,7 @@ export const funcDocs = async (req, res) => {
   res.send({
     name: "taxBudgetCalc",
     description: "Calculates tax, net income, and remaining budget.",
-    input: {
+    example: {
       type: "object",
       description: "Object containing income, expenses, and optional tax rate.",
       input: {
@@ -45,7 +45,7 @@ export const funcDocs = async (req, res) => {
     output: {
       type: "object",
       description: "Breakdown of tax, net income, and remaining budget.",
-      output: {
+      example: {
         income: 5000,
         taxRate: "22%",
         tax: 1100,
