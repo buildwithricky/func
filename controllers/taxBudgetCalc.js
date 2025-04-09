@@ -33,7 +33,7 @@ export const funcDocs = async (req, res) => {
   res.send({
     name: "taxBudgetCalc",
     description: "Calculates tax, net income, and remaining budget.",
-    example: {
+    input: {
       type: "object",
       description: "Object containing income, expenses, and optional tax rate.",
       input: {
