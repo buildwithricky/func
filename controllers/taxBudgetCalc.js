@@ -36,7 +36,7 @@ export const funcDocs = async (req, res) => {
     input: {
       type: "object",
       description: "Object containing income, expenses, and optional tax rate.",
-      input: {
+      example: {
         income: 5000,
         expenses: 2000,
         taxRate: 22,
